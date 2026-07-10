@@ -1,0 +1,6 @@
+{
+  "name": "MindCheck",
+  "description": "Expert system and mental health screening tool for Malaysians.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

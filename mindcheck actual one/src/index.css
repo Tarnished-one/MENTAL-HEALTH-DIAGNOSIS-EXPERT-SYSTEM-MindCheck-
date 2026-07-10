@@ -1,1 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
 
+@theme {
+  --font-sans: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  --color-green-50: #f4faf0;
+  --color-green-100: #e2f3d6;
+  --color-green-200: #c6e7af;
+  --color-green-300: #a4d882;
+  --color-green-400: #7eb84a;
+  --color-green-500: #5c9a2e;
+  --color-green-600: #4a7c24;
+  --color-green-700: #3d6b1e;
+  --color-green-800: #2d5016;
+  --color-green-900: #1a3a08;
+
+  --color-gray-50: #f9faf7;
+  --color-gray-100: #f1f2ec;
+  --color-gray-200: #e2e3db;
+  --color-gray-300: #c5c6b9;
+  --color-gray-400: #9a9b8b;
+  --color-gray-500: #747565;
+  --color-gray-600: #555648;
+  --color-gray-700: #3c3d31;
+  --color-gray-800: #27281f;
+  --color-gray-900: #161711;
+  --color-gray-950: #0a0b08;
+  
+  --color-red-50: #fef2f2;
+  --color-red-100: #fee2e2;
+  --color-red-500: #ef4444;
+  --color-red-600: #dc2626;
+  --color-red-700: #b91c1c;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-gray-50);
+  color: var(--color-gray-900);
+}
+
+.sev-normal {
+  background-color: #ecfdf5;
+  color: #065f46;
+}
+
+.sev-mild {
+  background-color: #fffbeb;
+  color: #92400e;
+}
+
+.sev-moderate {
+  background-color: #fff7ed;
+  color: #9a3412;
+}
+
+.sev-severe {
+  background-color: #fef2f2;
+  color: #991b1b;
+}
+
+.sev-extreme {
+  background-color: #3b0000;
+  color: #ffcccc;
+}
